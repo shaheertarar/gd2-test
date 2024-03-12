@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding:80px 20px 80px 20px;
+    margin:0;
+    width:100%;
+    height:auto;
+    background: #a1c3a4;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    line-height: 1.2em;
+    font-weight:normal;
+    max-width:520px;
+    margin:auto;
+    font-style:italic;
+    padding:20px 0 20px 0;
+}
+
+img {
+    max-width:300px;
+    margin:auto;
+    display:block;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    line-height: 1.2em;
+    max-width:520px;
+    margin:auto;
+}

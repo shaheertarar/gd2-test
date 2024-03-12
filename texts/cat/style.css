@@ -1,0 +1,53 @@
+body {
+    padding:0;
+    margin: 0;
+    width:100%;
+    height:100vh;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background: lightskyblue;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    border-bottom: solid black;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    background: blue;
+    position: absolute;
+}
+
+.header-text{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+
+.body-text{
+    font-size: 18px;
+    color: black;
+    width: 500px;
+    margin: auto;
+}
+
+.main-text{
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    padding: 85px 0 0 0;
+
+}
+
+.main-image{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+}

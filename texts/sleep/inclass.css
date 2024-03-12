@@ -1,0 +1,55 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+.header-text{
+    font-family: fantasy;
+    font-size: 36pt;
+    margin-top:10px;
+    color: blue;
+    text-align: center;
+}
+
+.main-image{
+    width: 500px;
+    height: auto;
+    margin:auto;
+    display: block;
+    padding: 40px 0 0 0;
+}
+
+.body-text{
+    font-family: Futura;
+    font-size: 12pt;
+    width: 800px;
+    margin:auto;
+    position: relative;
+}
+
+span{
+    font-size: 30pt;
+    color:blue;
+}
+
+/* .sidebar{
+    font-size:0;
+    height: 100vh;
+    width: 20%;
+    background-color: blue;
+    position:absolute;
+    top:0px;
+    right:0px;
+    
+} */
